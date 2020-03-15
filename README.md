@@ -24,11 +24,12 @@ Install plugin and drop scripts to folder **plugin_data/SkriptBE/scripts** (scri
  - [ ] entity support,
  - [ ] implement api,
  - [ ] add support for iProtector,
- - [ ] boss bars,
+ - [x] boss bars,
  - [ ] mysql, sqlite3,
  - [ ] curl support,
  - [ ] more functions,
  - [ ] new events,
+ - [ ] implement regions,
 
 # Examples
 Basic commands:
