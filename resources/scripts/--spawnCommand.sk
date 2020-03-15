@@ -1,0 +1,20 @@
+variables:
+	loc = ""
+
+command /setspawn:
+	permission: set.spawn
+	description: set spawn location
+	trigger:
+		send "You set spawn point to"
+		send "X: %x-coordinate of player%"
+		send "Y: %y-coordinate of player%"
+		send "Z: %z-coordinate of player%"
+		set {loc} to location of player
+	
+command /spawn:
+	description: teleport to spawn
+	trigger:
+		send "You teleported to spawn!"
+		teleport player to %{loc}%
+		send "You teleported to spawn."
+	

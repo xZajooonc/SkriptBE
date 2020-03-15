@@ -1,0 +1,4 @@
+on click:
+	if name of player's tool is 'TNT':
+		remove 1 tnt from player
+		shoot a tnt from player with speed 0.4

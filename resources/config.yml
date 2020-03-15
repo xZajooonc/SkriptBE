@@ -1,0 +1,22 @@
+---
+# language used in messages in plugin
+language: english
+
+# check and update to new plugin versions
+check for new version: true
+
+# date format using in log.txt file
+date format: d/m/Y H:i:s
+
+# log and save player commands to log.txt
+log player commands: true
+
+# save date to log.txt when player used command
+save date usage command: false
+
+# use colors codes in scripts eg. <red>
+color codes: true
+
+# save variables to variables.txt file
+save variables: true
+...

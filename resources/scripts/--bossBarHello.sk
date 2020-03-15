@@ -1,0 +1,7 @@
+options:
+	server-name: EXAMPLE
+
+on join:
+	set boss bar of player to "Welcome to {@server-name}"
+	wait 15 seconds
+	wipe player's bossbar

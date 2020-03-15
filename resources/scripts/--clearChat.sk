@@ -1,0 +1,8 @@
+command /clearchat:
+	permission: clear.chat
+	description: clear chat in server
+	permission message: You do not have permission to clear chat!
+	trigger:
+		loop 100 times:
+			broadcast " "
+		broadcast "Chat was cleared by %player%"

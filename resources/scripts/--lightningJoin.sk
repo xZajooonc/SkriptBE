@@ -1,0 +1,3 @@
+on join:
+	strike lightning at player
+	send player title "&aWELCOME TO SERVER &c%player%" with subtitle "no rob to szmulo &6www.example.com"

@@ -1,0 +1,11 @@
+name: SkriptBE
+main: Skript\SkriptMain
+version: 1.0.0
+api: 3.0.0
+author: DominixZ
+webside: https://skriptbe.ga
+description: Port version of Bukkit Skript for PocketMine-MP
+
+commands:
+    skript:
+        description: "main command of plugin SkriptBE"

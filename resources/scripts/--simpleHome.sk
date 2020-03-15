@@ -1,0 +1,14 @@
+variables:
+	{home.%player%} = ""
+	
+command /sethome:
+	description: command /sethome
+	trigger:
+		set {home.%player%} to location of player
+		send "You set home."
+	
+command /home:
+	description: command /home
+	trigger:
+		teleport player to %{home.%player%}%
+		send "You teleported to home."

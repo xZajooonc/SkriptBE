@@ -1,0 +1,9 @@
+command /day:
+	permission: day
+	trigger:
+		set time to day
+		
+command /night:
+	permission: day
+	trigger:
+		set time to night
