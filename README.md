@@ -66,4 +66,4 @@ every 5 minutes:
 The documentation for this plugin is the same as for its Java versions. You can see it under the <a href="https://skriptlang.github.io/Skript/index.html">link</a>
 
 # License
-This project is licensed under LGPL-3.0.
+This project is licensed under GPLv3.
