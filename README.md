@@ -5,6 +5,9 @@
 
 Skript is a plugin for PocketMine-MP, which allows server owners and other people to modify their servers without learning PHP. You can load scripts from Bukkit plugin version.
 
+# What is Skript?
+Skript is a plugin that allows you to customize Minecraft's mechanics with simple scripts written in plain English sentences. 
+
 # Requirements
 SkriptBE requires latest PocketMine-MP.
 
